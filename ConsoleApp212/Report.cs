@@ -43,12 +43,13 @@ namespace ConsoleApp212
                 }
             }
         }
-        public void read ()
+        public void read()
         {
-          string [] a =   File.ReadAllLines("mxm.txt");
+            string[] a = File.ReadAllLines("mxm.txt");
             foreach (var item in a)
             {
                 Console.WriteLine(item);
+                Console.WriteLine("//////");
             }
         }
     }
